@@ -9,6 +9,8 @@ CONDA_ENV_NAME = facefusion
 export PYTHONDONTWRITEBYTECODE=1
 export PYTHONUNBUFFERED=1
 
+export FACEFUSION_PROBABILITY_LIMIT=100
+
 # -----------------------------------------------------------------------------
 # run
 # -----------------------------------------------------------------------------

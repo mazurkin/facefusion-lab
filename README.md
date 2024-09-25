@@ -1,5 +1,7 @@
 # facefusion
 
+facefusion is a deep-fake laboratory
+
 ## description
 
 - https://docs.facefusion.io
@@ -10,6 +12,8 @@
 - https://github.com/facefusion/facefusion
 
 # facefusion-lab
+
+helper project
 
 ## github
 
@@ -24,7 +28,3 @@
 ## run
 
     make run
-
-## remove the filters
-
-in `facefusion/facefusion/content_analyser.py` find `PROBABILITY_LIMIT = 0.80` and set to `PROBABILITY_LIMIT = 100`
