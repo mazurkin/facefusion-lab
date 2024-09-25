@@ -1,0 +1,3 @@
+[submodule "facefusion"]
+	path = facefusion
+	url = git@github.com:mazurkin/facefusion.git
