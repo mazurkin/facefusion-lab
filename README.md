@@ -1,4 +1,4 @@
-# FaceFusion
+# facefusion
 
 ## description
 
@@ -9,10 +9,12 @@
 
 - https://github.com/facefusion/facefusion
 
+# facefusion-lab
+
 ## github
 
-    git clone --recurse-submodules git@github.com:mazurkin/facefusion.git facefusion
-    cd facefusion
+    git clone --recurse-submodules git@github.com:mazurkin/facefusion-lab.git facefusion-lab
+    cd facefusion-lab
 
 ## installation
 
