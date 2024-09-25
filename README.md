@@ -1,9 +1,13 @@
 # FaceFusion
 
-https://docs.facefusion.io
-https://docs.facefusion.io/installation
+## description
 
-https://github.com/facefusion/facefusion
+- https://docs.facefusion.io
+- https://docs.facefusion.io/installation
+
+## github
+
+- https://github.com/facefusion/facefusion
 
 ## github
 
@@ -21,4 +25,4 @@ https://github.com/facefusion/facefusion
 
 ## remove the filters
 
-in `facefusion/content_analyser.py` find `PROBABILITY_LIMIT = 0.80` and set to `PROBABILITY_LIMIT = 100`
+in `facefusion/facefusion/content_analyser.py` find `PROBABILITY_LIMIT = 0.80` and set to `PROBABILITY_LIMIT = 100`
