@@ -50,7 +50,6 @@ env-info:
 	@conda run --no-capture-output --live-stream --name "$(CONDA_ENV_NAME)" --cwd facefusion \
 		conda info
 
-
 # -----------------------------------------------------------------------------
 # patch management
 # -----------------------------------------------------------------------------
