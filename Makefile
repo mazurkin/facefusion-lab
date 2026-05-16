@@ -57,12 +57,12 @@ env-info:
 
 .PHONY: patch-make
 patch-make:
-	@git -C facefusion diff | base64 | gzip > "$(ROOT)/facefusion.patch"
+	@git -C facefusion diff | base64 | gzip > "$(ROOT)/assets/facefusion.patch"
 
 .PHONY: patch-apply
 patch-apply:
-	@cat "$(ROOT)/facefusion.patch" | gzip -d | base64 -d | git -C facefusion apply -
+	@cat "$(ROOT)/assets/facefusion.patch" | gzip -d | base64 -d | git -C facefusion apply -
 
 .PHONY: patch-show
 patch-show:
-	@cat "$(ROOT)/facefusion.patch" | gzip -d | base64 -d | less
+	@cat "$(ROOT)/assets/facefusion.patch" | gzip -d | base64 -d | less
